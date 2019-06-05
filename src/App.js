@@ -6,6 +6,7 @@ import Werk from './components/Werk';
 import Skills from './components/Skills';
 import Navigation from './components/Navigation';
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
+import Page404 from './components/Page404';
  
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Route exact path="/" component={Home}/>
               <Route path="/werk" component={Werk} />
               <Route path="/skills" component={Skills} />
+              <Route component={Page404}/>
             </Switch>
           </CSSTransition>
         </TransitionGroup>
