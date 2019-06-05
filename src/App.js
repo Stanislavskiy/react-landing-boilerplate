@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.scss';
 import {Switch, Route} from 'react-router-dom'
 import Home from './components/Home';
 import Werk from './components/Werk';
